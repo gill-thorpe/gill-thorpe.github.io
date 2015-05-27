@@ -1,3 +1,30 @@
 /**
- * Site styles
- */
+    Nav
+*/
+
+nav {
+    margin: 3em 0 0 0;
+}
+
+
+/**
+    Main
+*/
+
+#post-container {
+    .row {
+        :nth-child(2n) {
+            border: solid 10px red;
+        }
+    }
+}
+
+div:nth-child(4n)
+
+/**
+    Footer
+*/
+
+footer {
+    margin: 5em 0;
+}
