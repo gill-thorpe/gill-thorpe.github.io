@@ -1,25 +1,42 @@
 /**
     Nav
 */
+#nav {
 
-nav {
-    margin: 3em 0 0 0;
 }
-
 
 /**
     Main
 */
 
-#post-container {
-    .row {
-        :nth-child(2n) {
-            border: solid 10px red;
-        }
+#landing {
+    margin: 50px 0;
+
+    img.logo {
+        width:100px;
+        height: 50px;
+        background-color: #eee;
+        color: black;
+    }
+
+    h1 {
+        font-size: 0.8em !important;
+    }
+
+    p {
+        font-size: 0.7em;
     }
 }
 
-div:nth-child(4n)
+#work {
+    padding-top: 30px;
+    margin-top: 100vh;
+    .row {
+        div:nth-child(2n+2) {
+            margin-top: 7em;
+        }
+    }
+}
 
 /**
     Footer

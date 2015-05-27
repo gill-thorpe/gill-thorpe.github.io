@@ -59,15 +59,29 @@ blockquote {
 /**
     Nav
 */
-nav {
-  margin: 3em 0 0 0; }
-
 /**
     Main
 */
-#post-container .row :nth-child(2n) {
-  border: solid 10px red; }
+#landing {
+  margin: 50px 0; }
+  #landing img.logo {
+    width: 100px;
+    height: 50px;
+    background-color: #eee;
+    color: black; }
+  #landing h1 {
+    font-size: 0.8em !important; }
+  #landing p {
+    font-size: 0.7em; }
 
-div:nth-child(4n)
+#work {
+  padding-top: 30px;
+  margin-top: 100vh; }
+  #work .row div:nth-child(2n+2) {
+    margin-top: 7em; }
+
+/**
+    Footer
+*/
 footer {
   margin: 5em 0; }
