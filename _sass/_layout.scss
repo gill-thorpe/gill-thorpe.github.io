@@ -3,38 +3,71 @@
 */
 
 #nav {
-
+    border: none;
+    background-color: $background-color;
+    min-height: 70px;
+    a.navbar-brand {
+        font-weight: 700;
+        border: none;
+    }
+    a, p {
+        font-size: $base-font-size;
+        line-height: $base-line-height;
+        color: $brand-color;
+        padding: 3px;
+        margin: 12px;
+        a {
+            &:hover {
+                border-bottom: solid 1px;
+            }
+        }
+    }
 }
 
 /**
     Main
 */
 
-#landing {
-    margin-top: 10%;
-    img.logo {
-        width:100px;
-        height: 50px;
-        background-color: #eee;
-        color: black;
-    }
-
-    h1 {
-        font-size: 0.8em !important;
-    }
-
-    p {
-        font-size: 0.7em;
-    }
-}
-
 #work {
-    padding-top: 30px;
+
+    margin-top: 30px;
+
     .row {
-        div:nth-child(2n+2) {
-            margin-top: 7em;
+        @media screen and (min-width: 800px) {
+            div.post:nth-child(2n+2) {
+                margin-top: 7em;
+            }
+            div.post:nth-child(3n+3) {
+                margin-top: 12em;
+            }
         }
     }
+
+    .post {
+        .thumb-info {
+            margin-top: 2em;
+            line-height: 25px;
+            cursor: default;
+            h2.thumb-title {
+                font-size: 14px;
+            }
+            p.thumb-description {
+
+            }
+            a.thumb-link {
+                line-height: 50px;
+                transition: margin 0.5s ease;
+                border: none;
+                &:hover{
+                    margin-left: 10px;
+                }
+                &:after {
+                   content: " \2192";
+                }
+            }
+        }
+    }
+
 }
 
 /**
@@ -43,4 +76,9 @@
 
 footer {
     margin: 5em 0;
+    p {
+
+        font-size: $base-font-size;
+        line-height: $base-line-height + 2;
+    }
 }
