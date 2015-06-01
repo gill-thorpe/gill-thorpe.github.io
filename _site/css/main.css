@@ -80,6 +80,8 @@ a {
       margin-top: 7em; }
     #work .row div.post:nth-child(3n+3) {
       margin-top: 12em; } }
+  #work .post span.categories {
+    line-height: 50px; }
   #work .post .thumb-info {
     margin-top: 2em;
     line-height: 25px;
@@ -94,6 +96,44 @@ a {
         margin-left: 10px; }
       #work .post .thumb-info a.thumb-link:after {
         content: " \2192"; }
+
+/**
+    Pages
+*/
+#layout-default .post-title,
+#layout-page .post-title,
+#layout-post .post-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333;
+  margin: 2em 0; }
+#layout-default img,
+#layout-page img,
+#layout-post img {
+  margin: 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+#layout-default a,
+#layout-page a,
+#layout-post a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  transition: color 0.3s ease;
+  padding: none; }
+  #layout-default a:hover,
+  #layout-page a:hover,
+  #layout-post a:hover {
+    color: black; }
+#layout-default blockquote,
+#layout-page blockquote,
+#layout-post blockquote {
+  font-size: 2em;
+  margin: 1em 0;
+  padding-left: 2em; }
 
 /**
     Footer
