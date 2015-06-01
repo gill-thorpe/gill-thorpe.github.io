@@ -23,21 +23,12 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-/**
- * Images
- */
-/**
  * Lists
  */
 ul, ol {
   list-style: none;
   list-style-type: none; }
 
-/**
- * Headings
- */
 /**
  * Links
  */
@@ -50,6 +41,20 @@ a {
     color: #333;
     text-decoration: none;
     border-bottom: solid 1px; }
+
+/**
+    splash
+*/
+#splash {
+  display: none;
+  background-color: #fff;
+  height: 100vh;
+  z-index: 900; }
+  #splash .logo {
+    position: absolute;
+    top: 33.3%;
+    left: 40%;
+    max-width: 250px; }
 
 /**
     Nav
@@ -80,25 +85,31 @@ a {
       margin-top: 7em; }
     #work .row div.post:nth-child(3n+3) {
       margin-top: 12em; } }
-  #work .post span.categories {
-    line-height: 30px;
-    cursor: default;
-    background-color: #eee;
-    padding: 5px 10px; }
-  #work .post .thumb-info {
-    margin-top: 2em;
-    line-height: 25px;
-    cursor: default; }
-    #work .post .thumb-info h2.thumb-title {
-      font-size: 14px; }
-    #work .post .thumb-info a.thumb-link {
-      line-height: 50px;
-      transition: margin 0.5s ease;
-      border: none; }
-      #work .post .thumb-info a.thumb-link:hover {
-        margin-left: 10px; }
-      #work .post .thumb-info a.thumb-link:after {
-        content: " \2192"; }
+  #work .post {
+    position: relative; }
+    #work .post span.categories {
+      position: absolute;
+      top: 0;
+      cursor: default;
+      background-color: #eee;
+      padding: 5px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em; }
+    #work .post .thumb-info {
+      margin-top: 2em;
+      line-height: 25px;
+      cursor: default; }
+      #work .post .thumb-info h2.thumb-title {
+        font-size: 14px; }
+      #work .post .thumb-info a.thumb-link {
+        line-height: 50px;
+        transition: margin 0.5s ease;
+        border: none; }
+        #work .post .thumb-info a.thumb-link:hover {
+          margin-left: 10px; }
+        #work .post .thumb-info a.thumb-link:after {
+          content: " \2192"; }
 
 /**
     Pages
