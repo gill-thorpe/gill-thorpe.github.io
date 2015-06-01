@@ -45,7 +45,10 @@
 
     .post {
         span.categories {
-            line-height: 50px;
+            line-height: 30px;
+            cursor: default;
+            background-color: #eee;
+            padding: 5px 10px;
         }
         .thumb-info {
             margin-top: 2em;

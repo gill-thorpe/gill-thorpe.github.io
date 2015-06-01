@@ -81,7 +81,10 @@ a {
     #work .row div.post:nth-child(3n+3) {
       margin-top: 12em; } }
   #work .post span.categories {
-    line-height: 50px; }
+    line-height: 30px;
+    cursor: default;
+    background-color: #eee;
+    padding: 5px 10px; }
   #work .post .thumb-info {
     margin-top: 2em;
     line-height: 25px;
