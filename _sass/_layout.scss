@@ -1,7 +1,22 @@
 /**
+    splash
+*/
+#splash {
+    display: none;
+    background-color: $background-color;
+    height: 100vh;
+    z-index: 900;
+    .logo {
+        position: absolute;
+        top: 33.3%;
+        left: 40%;
+        max-width: 250px;
+    }
+}
+
+/**
     Nav
 */
-
 #nav {
     border: none;
     background-color: $background-color;
@@ -17,6 +32,7 @@
         padding: 3px;
         margin: 12px;
         a {
+
             &:hover {
                 border-bottom: solid 1px;
             }
@@ -27,11 +43,8 @@
 /**
     Main
 */
-
 #work {
-
     margin-top: 30px;
-
     .row {
         @media screen and (min-width: 800px) {
             div.post:nth-child(2n+2) {
@@ -42,13 +55,17 @@
             }
         }
     }
-
     .post {
+        position: relative;
         span.categories {
-            line-height: 30px;
+            position: absolute;
+            top: 0;
             cursor: default;
             background-color: #eee;
             padding: 5px 10px;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
         }
         .thumb-info {
             margin-top: 2em;
@@ -73,13 +90,11 @@
             }
         }
     }
-
 }
 
 /**
     Pages
 */
-
 #layout-default,
 #layout-page,
 #layout-post {
@@ -92,14 +107,12 @@
         color: $text-color;
         margin: 2em 0;
     }
-
     img {
         margin: 2em 0;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
-
     a {
         color: $brand-color;
         text-decoration: none;
@@ -110,15 +123,12 @@
             color: darken($brand-color, 50%);
         }
     }
-
     blockquote {
         font-size: 2em;
         margin: 1em 0;
         padding-left: 2em;
     }
-
 }
-
 
 /**
     Footer

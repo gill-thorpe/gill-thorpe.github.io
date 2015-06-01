@@ -1,18 +1,13 @@
 /**
  * Variables
  */
-
 $font-stack: Helvetica, sans-serif;
 $brand-color: #333;
 $background-color: #fff;
-
 $base-font-family: Helvetica, sans-serif;
 $base-font-size: 13px;
 $base-line-height: 18px;
 $text-color: #333;
-
-$post-link-color: #00f;
-
 
 /**
  * Reset some basic elements
@@ -23,8 +18,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
 
 /**
  * Basic styling
@@ -40,23 +33,6 @@ body {
 }
 
 /**
- * Set `margin-bottom` to maintain vertical rhythm
- */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
-
-}
-
-/**
- * Images
- */
-img {
-
-}
-
-/**
  * Lists
  */
 ul, ol {
@@ -69,13 +45,6 @@ li {
     > ol {
 
     }
-}
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-
 }
 
 /**
