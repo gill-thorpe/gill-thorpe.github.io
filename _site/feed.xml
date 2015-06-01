@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
-    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 30 May 2015 16:44:08 +0100</pubDate>
-    <lastBuildDate>Sat, 30 May 2015 16:44:08 +0100</lastBuildDate>
+    <title>Gill Thorpe</title>
+    <description>Gill Thorpe Textile design and Visual Communication</description>
+    <link>http://gillthorpe.com/</link>
+    <atom:link href="http://gillthorpe.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Jun 2015 20:18:10 +0100</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2015 20:18:10 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -31,8 +30,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 </description>
         <pubDate>Sun, 17 May 2015 16:49:48 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/17/project.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/17/project.html</guid>
+        <link>http://gillthorpe.com/jekyll/update/2015/05/17/project.html</link>
+        <guid isPermaLink="true">http://gillthorpe.com/jekyll/update/2015/05/17/project.html</guid>
         
         
         <category>jekyll</category>
@@ -62,8 +61,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 </description>
         <pubDate>Sun, 17 May 2015 16:49:48 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/17/project.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/17/project.html</guid>
+        <link>http://gillthorpe.com/jekyll/update/2015/05/17/project.html</link>
+        <guid isPermaLink="true">http://gillthorpe.com/jekyll/update/2015/05/17/project.html</guid>
         
         
         <category>jekyll</category>
@@ -93,8 +92,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 </description>
         <pubDate>Sun, 17 May 2015 16:49:48 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/17/project.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/17/project.html</guid>
+        <link>http://gillthorpe.com/jekyll/update/2015/05/17/project.html</link>
+        <guid isPermaLink="true">http://gillthorpe.com/jekyll/update/2015/05/17/project.html</guid>
         
         
         <category>jekyll</category>
@@ -124,8 +123,8 @@ Check out the [Jekyll docs][jekyll] for more info on how to get the most out of 
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 </description>
         <pubDate>Sun, 17 May 2015 16:49:48 +0100</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/05/17/project.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/05/17/project.html</guid>
+        <link>http://gillthorpe.com/jekyll/update/2015/05/17/project.html</link>
+        <guid isPermaLink="true">http://gillthorpe.com/jekyll/update/2015/05/17/project.html</guid>
         
         
         <category>jekyll</category>
