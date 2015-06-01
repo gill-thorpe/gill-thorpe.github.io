@@ -44,6 +44,9 @@
     }
 
     .post {
+        span.categories {
+            line-height: 50px;
+        }
         .thumb-info {
             margin-top: 2em;
             line-height: 25px;
@@ -69,6 +72,50 @@
     }
 
 }
+
+/**
+    Pages
+*/
+
+#layout-default,
+#layout-page,
+#layout-post {
+
+    .post-title {
+        font-family: $base-font-family;
+        font-size: $base-font-size * 2;
+        line-height: $base-line-height;
+        font-weight: 700;
+        color: $text-color;
+        margin: 2em 0;
+    }
+
+    img {
+        margin: 2em 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    a {
+        color: $brand-color;
+        text-decoration: none;
+        border-bottom: solid 1px;
+        transition: color 0.3s ease;
+        padding: none;
+        &:hover {
+            color: darken($brand-color, 50%);
+        }
+    }
+
+    blockquote {
+        font-size: 2em;
+        margin: 1em 0;
+        padding-left: 2em;
+    }
+
+}
+
 
 /**
     Footer
