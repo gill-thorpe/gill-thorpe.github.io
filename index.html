@@ -10,12 +10,12 @@ layout: default
                     {% if post.thumbnail %}
 						<img class="img-responsive" src="{{ post.thumbnail }}" />
 	    				{% else %}
-	    				<img class="img-responsive" src="/images/no.gif" />
+	    				<img class="img-responsive" src="/images/logo.png" />
     			    {% endif %}
         		</a>
                 <div class="thumb-info">
                     <h2 class="thumb-title">{{ post.title }}</h2>
-                    <p class="thumb-description">{{ post.content | strip_html | truncatewords: 10 }}</p>
+                    <p class="thumb-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
                     <a class="thumb-link" href="{{ BASE_PATH }}{{ post.url }}">See project</a>
                 </div>
     	    </div>

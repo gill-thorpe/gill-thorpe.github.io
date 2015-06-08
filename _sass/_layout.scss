@@ -44,7 +44,7 @@
     Main
 */
 #work {
-    margin-top: 30px;
+    margin-top: 100px;
     .row {
         @media screen and (min-width: 800px) {
             div.post:nth-child(2n+2) {
@@ -73,9 +73,10 @@
             cursor: default;
             h2.thumb-title {
                 font-size: 14px;
+                line-height: 50px;;
             }
             p.thumb-description {
-
+                max-width: 90%;
             }
             a.thumb-link {
                 line-height: 50px;
@@ -106,6 +107,7 @@
         font-weight: 700;
         color: $text-color;
         margin: 2em 0;
+        text-align: center;
     }
     img {
         margin: 2em 0;
@@ -135,7 +137,7 @@
 */
 
 footer {
-    margin: 5em 0;
+    margin: 10em 0 5em 0;
     p {
 
         font-size: $base-font-size;

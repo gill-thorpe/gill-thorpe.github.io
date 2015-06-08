@@ -3,9 +3,9 @@ title: Gill Thorpe
 email: info@gillthorpe.com
 description:
   Gill Thorpe Textile design and Visual Communication
-baseurl: ""
-url: "http://gillthorpe.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
+baseurl: "gill-thorpe.github.io"
+url: "gill-thorpe.github.io" 
+twitter_username:
 
 # Build settings
 markdown: kramdown

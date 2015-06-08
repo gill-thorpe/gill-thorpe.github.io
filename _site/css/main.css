@@ -79,7 +79,7 @@ a {
     Main
 */
 #work {
-  margin-top: 30px; }
+  margin-top: 100px; }
   @media screen and (min-width: 800px) {
     #work .row div.post:nth-child(2n+2) {
       margin-top: 7em; }
@@ -101,7 +101,10 @@ a {
       line-height: 25px;
       cursor: default; }
       #work .post .thumb-info h2.thumb-title {
-        font-size: 14px; }
+        font-size: 14px;
+        line-height: 50px; }
+      #work .post .thumb-info p.thumb-description {
+        max-width: 90%; }
       #work .post .thumb-info a.thumb-link {
         line-height: 50px;
         transition: margin 0.5s ease;
@@ -122,7 +125,8 @@ a {
   line-height: 18px;
   font-weight: 700;
   color: #333;
-  margin: 2em 0; }
+  margin: 2em 0;
+  text-align: center; }
 #layout-default img,
 #layout-page img,
 #layout-post img {
@@ -153,7 +157,7 @@ a {
     Footer
 */
 footer {
-  margin: 5em 0; }
+  margin: 10em 0 5em 0; }
   footer p {
     font-size: 13px;
     line-height: 20px; }
