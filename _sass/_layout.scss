@@ -47,10 +47,10 @@
     margin-top: 100px;
     .row {
         @media screen and (min-width: 800px) {
-            div.post:nth-child(2n+2) {
+            div.post:nth-child(odd) {
                 margin-top: 7em;
             }
-            div.post:nth-child(3n+3) {
+            div.post:nth-child(even) {
                 margin-top: 12em;
             }
         }

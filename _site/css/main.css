@@ -81,9 +81,9 @@ a {
 #work {
   margin-top: 100px; }
   @media screen and (min-width: 800px) {
-    #work .row div.post:nth-child(2n+2) {
+    #work .row div.post:nth-child(odd) {
       margin-top: 7em; }
-    #work .row div.post:nth-child(3n+3) {
+    #work .row div.post:nth-child(even) {
       margin-top: 12em; } }
   #work .post {
     position: relative; }
