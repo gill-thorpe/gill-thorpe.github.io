@@ -15,7 +15,7 @@ layout: default
         		</a>
                 <div class="thumb-info">
                     <h2 class="thumb-title">{{ post.title }}</h2>
-                    <p class="thumb-description">{{ post.content | strip_html | truncatewords: 50 }}</p>
+                    <p class="thumb-description">{{ post.content | strip_html | truncatewords: 200 }}</p>
                     <a class="thumb-link" href="{{ BASE_PATH }}{{ post.url }}">See project</a>
                 </div>
     	    </div>
