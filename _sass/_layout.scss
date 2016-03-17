@@ -2,16 +2,20 @@
     splash
 */
 #splash {
-    display: none;
-    background-color: $background-color;
-    height: 100vh;
-    z-index: 900;
-    .logo {
-        position: absolute;
-        top: 33.3%;
-        left: 40%;
-        max-width: 250px;
+  display: none;
+  background-color: $background-color;
+  height: 100vh;
+  z-index: 900;
+  .logo {
+    // position: absolute;
+    // top: 33.3%;
+    // left: 40%;
+    // max-width: 250px;
+    img {
+      margin: 35% auto;
+      max-width: 100%;
     }
+  }
 }
 
 /**
