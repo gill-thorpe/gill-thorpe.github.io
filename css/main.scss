@@ -21,7 +21,6 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
-
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -35,6 +34,7 @@ $on-laptop:        800px;
     }
 }
 
+<<<<<<< HEAD
 
 
 Import partials from `sass_dir` (defaults to `_sass`)
@@ -274,3 +274,8 @@ footer {
         line-height: $base-line-height + 2;
     }
 }
+=======
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "base";
+@import "layout";
+>>>>>>> origin/master
