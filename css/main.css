@@ -12,7 +12,7 @@ Error: Invalid CSS after "    "layout"": expected "{", was ";"
 46: 
 47: 
 48: 
-49: /**
+49: 
 
 Backtrace:
 ./main.scss:44
@@ -45,4 +45,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"    \"layout\"\": expected \"{\", was \";\"\A         on line 44 of ./main.scss\A \A 39: \A 40: Import partials from `sass_dir` (defaults to `_sass`)\A 41: @import\A 42:     \"base\",\A 43:     \"layout\"\A 44: ;\A 45: \A 46: \A 47: \A 48: \A 49: /**"; }
+  content: "Error: Invalid CSS after \"    \"layout\"\": expected \"{\", was \";\"\A         on line 44 of ./main.scss\A \A 39: \A 40: Import partials from `sass_dir` (defaults to `_sass`)\A 41: @import\A 42:     \"base\",\A 43:     \"layout\"\A 44: ;\A 45: \A 46: \A 47: \A 48: \A 49: "; }
