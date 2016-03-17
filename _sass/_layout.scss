@@ -51,9 +51,6 @@
     margin-top: 100px;
     .row {
         @media screen and (min-width: 800px) {
-            div.post:nth-child(odd) {
-                margin-top: 4em;
-            }
             div.post:nth-child(even) {
                 margin-top: 6em;
             }
@@ -61,6 +58,7 @@
     }
     .post {
         position: relative;
+        margin-top: 3em;
         span.categories {
             position: absolute;
             top: 0;
