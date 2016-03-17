@@ -1,93 +1,324 @@
-/*
-<<<<<<< HEAD
-Error: Invalid CSS after "    "layout"": expected "{", was ";"
-        on line 44 of ./main.scss
+/**
+ * Variables
+ */
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
 
-39: 
-40: Import partials from `sass_dir` (defaults to `_sass`)
-41: @import
-42:     "base",
-43:     "layout"
-44: ;
-45: 
-46: 
-47: 
-48: 
-49: 
+/**
+ * Basic styling
+ */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%; }
 
-Backtrace:
-./main.scss:44
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1097:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:1092:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:637:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
-=======
-Error: File to import not found or unreadable: base.
-       Load path: /Users/davidlawler/Dropbox/dave/arch_projects/gill-thorpe.github.io/css
-        on line 38 of ./main.scss
+/**
+ * Lists
+ */
+ul, ol {
+  list-style: none;
+  list-style-type: none; }
 
-33:         @content;
-34:     }
-35: }
-36: 
-37: // Import partials from `sass_dir` (defaults to `_sass`)
-38: @import "base";
-39: @import "layout";
+/**
+ * Links
+ */
+a {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 2px; }
+  a:hover {
+    color: #0d0d0d;
+    color: #333;
+    text-decoration: none;
+    border-bottom: solid 1px; }
 
-Backtrace:
-./main.scss:38
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
->>>>>>> origin/master
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/**
+    splash
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-<<<<<<< HEAD
-  content: "Error: Invalid CSS after \"    \"layout\"\": expected \"{\", was \";\"\A         on line 44 of ./main.scss\A \A 39: \A 40: Import partials from `sass_dir` (defaults to `_sass`)\A 41: @import\A 42:     \"base\",\A 43:     \"layout\"\A 44: ;\A 45: \A 46: \A 47: \A 48: \A 49: "; }
-=======
-  content: "Error: File to import not found or unreadable: base.\A        Load path: /Users/davidlawler/Dropbox/dave/arch_projects/gill-thorpe.github.io/css\A         on line 38 of ./main.scss\A \A 33:         @content;\A 34:     }\A 35: }\A 36: \A 37: // Import partials from `sass_dir` (defaults to `_sass`)\A 38: @import \"base\";\A 39: @import \"layout\";"; }
->>>>>>> origin/master
+#splash {
+  background-color: #fff;
+  height: 100vh;
+  z-index: 900; }
+  #splash .logo {
+    position: absolute;
+    top: 33.3%;
+    left: 40%;
+    max-width: 250px; }
+
+/**
+    Nav
+*/
+#nav {
+  border: none;
+  background-color: #fff;
+  min-height: 70px; }
+  #nav a.navbar-brand {
+    font-weight: 700;
+    border: none; }
+  #nav a, #nav p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    padding: 3px;
+    margin: 12px; }
+    #nav a a:hover, #nav p a:hover {
+      border-bottom: solid 1px; }
+
+/**
+    Main
+*/
+#work {
+  margin-top: 100px; }
+  @media screen and (min-width: 800px) {
+    #work .row div.post:nth-child(even) {
+      margin-top: 3em; } }
+  #work .post {
+    position: relative;
+    margin-top: 3em; }
+    #work .post span.categories {
+      position: absolute;
+      top: 0;
+      cursor: default;
+      background-color: #eee;
+      padding: 5px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em; }
+    #work .post .thumb-info {
+      margin-top: 2em;
+      line-height: 25px;
+      cursor: default; }
+      #work .post .thumb-info h2.thumb-title {
+        font-size: 14px;
+        line-height: 50px; }
+      #work .post .thumb-info p.thumb-description {
+        max-width: 90%; }
+      #work .post .thumb-info a.thumb-link {
+        line-height: 50px;
+        transition: margin 0.5s ease;
+        border: none; }
+        #work .post .thumb-info a.thumb-link:hover {
+          margin-left: 10px; }
+        #work .post .thumb-info a.thumb-link:after {
+          content: " \2192"; }
+
+/**
+    Pages
+*/
+#layout-default .post-title,
+#layout-page .post-title,
+#layout-post .post-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333;
+  margin: 2em 0;
+  text-align: center; }
+#layout-default img,
+#layout-page img,
+#layout-post img {
+  margin: 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+#layout-default a,
+#layout-page a,
+#layout-post a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  transition: color 0.3s ease;
+  padding: none; }
+  #layout-default a:hover,
+  #layout-page a:hover,
+  #layout-post a:hover {
+    color: black; }
+#layout-default blockquote,
+#layout-page blockquote,
+#layout-post blockquote {
+  font-size: 2em;
+  margin: 1em 0;
+  padding-left: 2em; }
+
+/**
+    Footer
+*/
+footer {
+  margin: 10em 0 5em 0; }
+  footer p {
+    font-size: 13px;
+    line-height: 20px; }
+
+/**
+ * Variables
+ */
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; }
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 300;
+  color: #333;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Lists
+ */
+ul, ol {
+  list-style: none;
+  list-style-type: none; }
+
+/**
+ * Links
+ */
+a {
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 2px; }
+  a:hover {
+    color: #0d0d0d;
+    color: #333;
+    text-decoration: none;
+    border-bottom: solid 1px; }
+
+/**
+    splash
+*/
+#splash {
+  display: none;
+  background-color: #fff;
+  height: 100vh;
+  z-index: 900; }
+  #splash .logo img {
+    margin: 35% auto;
+    max-width: 100%; }
+
+/**
+    Nav
+*/
+#nav {
+  border: none;
+  background-color: #fff;
+  min-height: 70px; }
+  #nav a.navbar-brand {
+    font-weight: 700;
+    border: none; }
+  #nav a, #nav p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    padding: 3px;
+    margin: 12px; }
+    #nav a a:hover, #nav p a:hover {
+      border-bottom: solid 1px; }
+
+/**
+    Main
+*/
+#work {
+  margin-top: 100px; }
+  @media screen and (min-width: 800px) {
+    #work .row div.post:nth-child(even) {
+      margin-top: 3em; } }
+  #work .post {
+    position: relative;
+    margin-top: 3em; }
+    #work .post span.categories {
+      position: absolute;
+      top: 0;
+      cursor: default;
+      background-color: #eee;
+      padding: 5px 10px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em; }
+    #work .post .thumb-info {
+      margin-top: 2em;
+      line-height: 25px;
+      cursor: default; }
+      #work .post .thumb-info h2.thumb-title {
+        font-size: 14px;
+        line-height: 50px; }
+      #work .post .thumb-info p.thumb-description {
+        max-width: 90%; }
+      #work .post .thumb-info a.thumb-link {
+        line-height: 50px;
+        transition: margin 0.5s ease;
+        border: none; }
+        #work .post .thumb-info a.thumb-link:hover {
+          margin-left: 10px; }
+        #work .post .thumb-info a.thumb-link:after {
+          content: " \2192"; }
+
+/**
+    Pages
+*/
+#layout-default .post-title,
+#layout-page .post-title,
+#layout-post .post-title {
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #333;
+  margin: 2em 0;
+  text-align: center; }
+#layout-default img,
+#layout-page img,
+#layout-post img {
+  margin: 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block; }
+#layout-default a,
+#layout-page a,
+#layout-post a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: solid 1px;
+  transition: color 0.3s ease;
+  padding: none; }
+  #layout-default a:hover,
+  #layout-page a:hover,
+  #layout-post a:hover {
+    color: black; }
+#layout-default blockquote,
+#layout-page blockquote,
+#layout-post blockquote {
+  font-size: 2em;
+  margin: 1em 0;
+  padding-left: 2em; }
+
+/**
+    Footer
+*/
+footer {
+  margin: 10em 0 5em 0; }
+  footer p {
+    font-size: 13px;
+    line-height: 20px; }
+
+/*# sourceMappingURL=main.css.map */

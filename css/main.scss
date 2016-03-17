@@ -34,14 +34,11 @@ $on-laptop:        800px;
     }
 }
 
-<<<<<<< HEAD
+
+@import "../_sass/_base.scss";
+@import "../_sass/_layout.scss";
 
 
-Import partials from `sass_dir` (defaults to `_sass`)
-@import
-    "base",
-    "layout"
-;
 
 
 
@@ -116,9 +113,6 @@ a {
         border-bottom: solid 1px;
     }
 }
-
-
-
 
 
 
@@ -274,8 +268,3 @@ footer {
         line-height: $base-line-height + 2;
     }
 }
-=======
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import "base";
-@import "layout";
->>>>>>> origin/master

@@ -2,11 +2,6 @@
     splash
 */
 #splash {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
-  display: none;
   background-color: $background-color;
   height: 100vh;
   z-index: 900;
@@ -16,23 +11,7 @@
     left: 40%;
     max-width: 250px;
   }
-<<<<<<< HEAD
-=======
-    display: none;
-    background-color: $background-color;
-    height: 100vh;
-    z-index: 900;
-    .logo {
-        position: absolute;
-        top: 33.3%;
-        left: 40%;
-        max-width: 250px;
-    }
->>>>>>> parent of 690fef7... Logo
-=======
->>>>>>> origin/master
 }
-
 /**
     Nav
 */
@@ -154,10 +133,9 @@
 */
 
 footer {
-    margin: 10em 0 5em 0;
-    p {
-
-        font-size: $base-font-size;
-        line-height: $base-line-height + 2;
-    }
+  margin: 10em 0 5em 0;
+  p {
+    font-size: $base-font-size;
+    line-height: $base-line-height + 2;
+  }
 }
