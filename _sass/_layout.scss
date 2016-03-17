@@ -2,6 +2,18 @@
     splash
 */
 #splash {
+<<<<<<< HEAD
+  display: none;
+  background-color: $background-color;
+  height: 100vh;
+  z-index: 900;
+  .logo {
+    position: absolute;
+    top: 33.3%;
+    left: 40%;
+    max-width: 250px;
+  }
+=======
     display: none;
     background-color: $background-color;
     height: 100vh;
@@ -12,6 +24,7 @@
         left: 40%;
         max-width: 250px;
     }
+>>>>>>> parent of 690fef7... Logo
 }
 
 /**
@@ -47,16 +60,14 @@
     margin-top: 100px;
     .row {
         @media screen and (min-width: 800px) {
-            div.post:nth-child(odd) {
-                margin-top: 4em;
-            }
             div.post:nth-child(even) {
-                margin-top: 6em;
+                margin-top: 3em;
             }
         }
     }
     .post {
         position: relative;
+        margin-top: 3em;
         span.categories {
             position: absolute;
             top: 0;
