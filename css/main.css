@@ -84,7 +84,7 @@ a {
       margin-top: 3em; } }
   #work .post {
     position: relative;
-    margin-top: 3em; }
+    margin: 3em 0 5em 0; }
     #work .post span.categories {
       position: absolute;
       top: 0;
