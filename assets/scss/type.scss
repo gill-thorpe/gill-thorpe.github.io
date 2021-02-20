@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'MintGroteskReg';
+    src: url('./../fonts/MintGrotesk-Regular.woff2') format('woff2'),
+        url('./../fonts/MintGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+  font-size: 20px;
+  line-height: 120%;
+  font-family: "MintGroteskReg";
+}
